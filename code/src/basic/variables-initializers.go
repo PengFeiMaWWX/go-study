@@ -8,6 +8,6 @@ var i, j = 1, 2
 // 如果提供了初始值，那么类型可以省略
 func main() {
 
-	var c, python, java = true, 3.14, "hello"
+	var c, python, java = true, 3.14, "basic"
 	fmt.Println(i, j, c, python, java)
 }

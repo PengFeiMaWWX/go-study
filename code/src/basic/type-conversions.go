@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 )
+
 /**
 
 类型转换
@@ -19,7 +20,7 @@ i := 42
 f := float64(i)
 u := uint(f)
 与 C 不同的是，Go 在不同类型的项之间赋值时需要显式转换。
- */
+*/
 func main() {
 
 	var i int = 64
