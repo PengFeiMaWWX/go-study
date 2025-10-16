@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 *
 类型 [n]T 表示一个数组，它拥有 n 个类型为 T 的值。
@@ -13,15 +11,15 @@ var a [10]int
 
 数组的长度是其类型的一部分，因此数组不能改变大小。
 */
-func main() {
-
-	var a [2]string
-	a[0] = "Hello"
-	a[1] = "World"
-	fmt.Println(a[0], a[1])
-	fmt.Println(a)
-
-	primes := [6]int{2, 3, 5, 7, 11, 13}
-	fmt.Println(primes)
-
-}
+//func main() {
+//
+//	var a [2]string
+//	a[0] = "Hello"
+//	a[1] = "World"
+//	fmt.Println(a[0], a[1])
+//	fmt.Println(a)
+//
+//	primes := [6]int{2, 3, 5, 7, 11, 13}
+//	fmt.Println(primes)
+//
+//}
